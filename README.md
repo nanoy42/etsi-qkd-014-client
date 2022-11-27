@@ -1,5 +1,10 @@
 # etsi_qkd_014_client
 
+[![Documentation Status](https://readthedocs.org/projects/dinomail/badge/?version=latest)](https://dinomail.readthedocs.io/en/latest/?badge=latest)
+[![License: GPL v3](https://img.shields.io/badge/License-LGPLv3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Code style black](https://img.shields.io/badge/code%20style-black-000000.svg)]("https://github.com/psf/black)
+[![GitHub release](https://img.shields.io/github/release/nanoy42/etsi-qkd-014-client.svg)](https://github.com/nanoy42/etsi-qkd-014-client/releases/)
+
 The ETSI GS QKD 014 specification is a specification for communication between a client and a QKD module to retrieve cryptographic keys that have been exchanged using a Quantum Key Distribution protocol.
 
 The specifications can be found at the following address : <https://www.etsi.org/deliver/etsi_gs/QKD/001_099/014/01.01.01_60/gs_qkd014v010101p.pdf>
@@ -14,7 +19,7 @@ The current version of the software uses the version V1.1.1 of the specification
 * Retrieve a secure key knowing the key's ID using the `get_key_with_key_IDs` command.
 ## Documentation
 
-The full documentation can be found at https://etsi-qkd014-client.readthedocs.io/en/latest/.
+The full documentation can be found at https://etsi-qkd-014-client.readthedocs.io/en/latest/.
 
 ## License
 
