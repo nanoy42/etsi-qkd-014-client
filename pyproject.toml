@@ -1,8 +1,24 @@
 [tool.poetry]
-name = "etsi_qkd_014_client"
+name = "etsi-qkd-014-client"
 version = "0.9.0"
 description = "A Python client for the QKD 014 standard"
 authors = ["Yoann Piétri <Yoann.Pietri@lip6.fr>"]
+license = "LGPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/nanoy42/etsi-qkd-014-client"
+documentation = "https://etsi-qkd-014-client.readthedocs.io/en/latest/"
+keywords = ["qkd","etsi-qkd-014", "python client"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Programming Language :: Python",
+    "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator"
+]
+packages = [
+    { include = "etsi_qkd_014_client" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.7.2,<4"
